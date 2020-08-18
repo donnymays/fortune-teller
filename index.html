@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Fortune Teller</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Fortune Teller Survey</h2>
+    </div>
+    <form id="fortune_survey">
+      <div class="form-group">
+        <p>In the past year, I have experienced or seen the following (check all that apply):</p>
+        <input type="checkbox" name="bad-experiences" value="0"> A skinny black cat.<br>
+        <input type="checkbox" name="good-experiences" value="1">A four leaf clover.<br>
+        <input type="checkbox" name="bad-experiences" value="0">Broken a mirror.<br>
+        <input type="checkbox" name="bad-experiences" value="0">Woken up with a charlie horse in the night!<br>
+        <input type="checkbox" name="good-experiences" value="1">Seen a white dove.<br>
+        <input type="checkbox" name="good-experiences" value="1">Seen a shooting star<br>
+        <input type="checkbox" name="good-experiences" value="1">Found five dollars on the ground!<br>
+        <input type="checkbox" name="good-experiences" value="1">Had five green lights in a row.<br>
+        <input type="checkbox" name="good-experiences" value="1">Thrown a penny in a fountain.<br>
+        <input type="checkbox" name="bad-experiences" value="0">Stepped in poo poo.<br>
+      </div>
+      <div class="form-group">
+        <p>In the past year, I have had the following occur in a dream:</p>
+        <input type="checkbox" name="bad-dreams" value="0">Been eaten by a lion.<br>
+        <input type="checkbox" name="bad-dreams" value="0">Driven a car off a snowy mountain.<br>
+        <input type="checkbox" name="bad-dreams" value="0">Attacked by a unicycle gang.<br>
+        <input type="checkbox" name="bad-dreams" value="0">Tried to run underwater.<br>
+        <input type="checkbox" name="good-dreams" value="1">Won a million bucks.<br>
+        <input type="checkbox" name="good-dreams" value="1">Ate breakfast on the moon.<br>
+        <input type="checkbox" name="good-dreams" value="1">Went to Paris.<br>
+        <input type="checkbox" name="bad-dreams" value="0">Took a taxi.<br>
+        <input type="checkbox" name="bad-dreams" value="0">Became a clown.<br>
+        <input type="checkbox" name="good-dreams" value="1">Went skateboarding with a monster.<br>
+        <input type="checkbox" name="good-dreams" value="1">Woken up in a bed of gold.<br>
+        <input type="checkbox" name="good-dreams" value="1">Rode a scooter on mars.<br>
+        <input type="checkbox" name="good-dreams" value="1">Flown in an interstellar rocket with your friend.<br>
+      </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+    <span id="results">
+      <p><b>Based on your experience and dreams, here is your fortune:</b></p>
+      
+      <p><span id="good-experiences">You are gonna be rich and happy and live a great, fun life.</span></p>
+      
+      <p><span id="bad-experiences">You are gonna be rich and unhappy and die alone.</span></p>
+      
+      <p><span id="good-dreams">You won't be rich but that doesn't matter becuase you'll get all of your fulfillent through helping others and being a really nice person.</span></p>
+      
+      <p><span id="bad-dreams">You are gonna get hit by a fire truck.</span></p>
+      
+
+    </span>
+    <br>
+  </div>
+</body>
+</html>
